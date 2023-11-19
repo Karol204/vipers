@@ -1,0 +1,39 @@
+.nav {
+	width: 100vw;
+	height: 10vh;
+	background-color: var(--backgroud-color-500);
+	color: black;
+}
+
+.navUl {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 100%;
+	padding: 0 25px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+}
+
+.Logo {
+	width: 120px;
+	height: 120px;
+	object-fit: contain;
+	margin: 0 30px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.navLi {
+	width: 180px;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav {
+		display: none;
+	}
+	.Logo {
+		display: inline;
+	}
+}

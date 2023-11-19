@@ -1,0 +1,45 @@
+.section {
+	max-width: 1320px;
+	width: 90vw;
+	margin: 40px auto;
+	/* padding: 30px; */
+	text-align: center;
+}
+
+.approach {
+	width: 60%;
+	text-align: center;
+	margin: 40px auto;
+}
+
+.approachH2 {
+	font-size: 27px;
+	margin: 20px 0 35px;
+}
+
+.approachP {
+	font-size: 17px;
+	margin: 15px 0;
+	line-height: 22px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	max-width: 1320px;
+	/* margin-top: 90px; */
+}
+@media only screen and (max-width: 1050px) {
+	.approach {
+		width: 95%;
+		text-align: center;
+	}
+	.container {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 50px;
+	}
+}
