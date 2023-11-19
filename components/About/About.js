@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image.js'
 import styles from './About.module.css'
-import AboutPic from '../../public/About.jpg'
+import AboutPic from '../../public/about.jpg'
 import ContactForm from '../ContactForm/ContactForm.js'
 
 const About = () => {
