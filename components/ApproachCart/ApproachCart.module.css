@@ -1,7 +1,5 @@
 .container {
 	max-width: 428px;
-	height: 70vh;
-	max-height: 70vh;
 	margin: 30px 10px;
 }
 
@@ -17,10 +15,11 @@
 
 .headline {
 	margin: 30px 0;
-	font-size: 26px;
+	font-size: clamp(1.125rem, 0.885rem + 1.2vw, 1.575rem);
 }
 
 .paragraph {
+	font-size: clamp(0.875rem, 0.715rem + 0.8vw, 1.075rem);
 	margin: 10px 20px;
 	line-height: 25px;
 }
@@ -28,16 +27,15 @@
 @media only screen and (max-width: 900px) {
 	.container {
 		max-width: none;
-		height: 50vh;
 
 		/* margin: 30px 10px 20px; */
 	}
 }
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
 	.container {
 		max-width: none;
 		height: 60vh;
-		/* height: 60vh; */
+	
 		margin: 50px 10px 0px;
 	}
 	.paragraph {
@@ -65,4 +63,4 @@
 	.container {
 		margin: 50px 10px 120px;
 	}
-}
+} */

@@ -2,34 +2,30 @@
 	max-width: 1320px;
 	width: 90vw;
 	margin: 40px auto;
-	/* padding: 30px; */
 	text-align: center;
 }
 
 .approach {
-	width: 60%;
+	width: clamp(50vw, 55vw, 60vw);
+	font-size: clamp(0.8rem, 0.88rem + 0.6vw, 1.25rem);
 	text-align: center;
 	margin: 40px auto;
 }
 
 .approachH2 {
-	font-size: 27px;
+	font-size: clamp(1.5625rem, 1.2625rem + 1.5vw, 2.5rem);
 	margin: 20px 0 35px;
 }
 
 .approachP {
-	font-size: 17px;
 	margin: 15px 0;
-	line-height: 22px;
 }
 
 .container {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: center;
-	max-width: 1320px;
-	/* margin-top: 90px; */
+	flex-grow: 1;
 }
 @media only screen and (max-width: 1050px) {
 	.approach {
@@ -40,6 +36,5 @@
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-		margin-top: 50px;
 	}
 }
