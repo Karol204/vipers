@@ -1,7 +1,7 @@
 .AboutContainer {
 	width: 100%;
 	max-width: 1450px;
-	height: 80vh;
+	/* height: 80vh; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
