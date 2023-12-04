@@ -49,10 +49,6 @@
 }
 
 @media only screen and (max-width: 950px) {
-	.AboutContainer {
-	
-	margin: 40px 0;
-}
 	.imgContainer {
 		display: none;
 	}
@@ -66,8 +62,10 @@
 		width: 80%;
 	}
 }
+
 @media only screen and (max-width: 450px) {
 	.AboutContainer {
 	
 	margin: 40px 0 26vh;
+}
 }
