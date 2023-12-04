@@ -1,6 +1,6 @@
 .nav {
 	width: 100vw;
-	height: 10vh;
+	height: 14vh;
 	background-color: var(--backgroud-color-500);
 	color: black;
 }
@@ -17,8 +17,8 @@
 }
 
 .Logo {
-	width: 120px;
-	height: 120px;
+	width: 152px;
+	height: 152px;
 	object-fit: contain;
 	margin: 0 30px;
 	vertical-align: middle;

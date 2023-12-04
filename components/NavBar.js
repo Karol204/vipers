@@ -1,7 +1,7 @@
 import styles from './NavBar.module.css'
 import Link from 'next/link.js'
 import Image from 'next/image.js'
-import Logo from '../public/logo.jpg'
+import Logo from '../public/logo1.png'
 
 const NavBar = () => {
   return (
