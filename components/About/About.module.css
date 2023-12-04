@@ -14,11 +14,11 @@
 }
 
 .AboutParagraph {
-	width: 60%;
+	width: 50%;
 	font-size: clamp(0.8rem, 0.715rem + 0.8vw, 1.075rem);
 	line-height: 26px;
 	text-align: center;
-	margin: 35px;
+	margin-top: clamp(2.5rem, 1.9048rem + 2.5397vw, 4rem);
 }
 
 .innerContainer {
@@ -58,5 +58,8 @@
 	}
 	.Features {
 		margin: 0 20px;
+	}
+	.AboutParagraph {
+		width: 80%;
 	}
 }
