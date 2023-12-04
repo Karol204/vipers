@@ -5,7 +5,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 40px 0 26vh;
+	margin: 40px 0;
 }
 
 .AboutHeadline {
@@ -49,6 +49,10 @@
 }
 
 @media only screen and (max-width: 950px) {
+	.AboutContainer {
+	
+	margin: 40px 0;
+}
 	.imgContainer {
 		display: none;
 	}
@@ -61,4 +65,9 @@
 	.AboutParagraph {
 		width: 80%;
 	}
+}
+@media only screen and (max-width: 450px) {
+	.AboutContainer {
+	
+	margin: 40px 0 26vh;
 }
