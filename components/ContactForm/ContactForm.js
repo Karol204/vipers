@@ -17,7 +17,7 @@ const ContactForm = ({title, candidates}) => {
     if (!captchaValue) {
       alert("Please verify you are not a robot");
     } else { 
-      emailjs.sendForm('service_p400yaa', 'template_7bwnooi', form.current, process.env.PUBLIC_KEY)
+      emailjs.sendForm('service_p400yaa', 'template_7bwnooi', form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY_EMAILJS)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -34,14 +34,13 @@ const ContactForm = ({title, candidates}) => {
   return (
     <div className={styles.SectionContainer}>
       <h1>{title}</h1>
-      
       <form ref={form} onSubmit={sendEmail}>
 		
 		  <input id="name" type="text" placeholder="NAME" className={styles.input} name='name' required/>
 		  <input id="email" type="text" placeholder="E-MAIL" className={styles.input} name='email' required/>
 		  <textarea id="message" type="text" placeholder="MESSAGE" className={styles.textarea} name='message'></textarea>
       <input id="submit" type="submit" value="Send!" className={styles.input}/>
-      <ReCAPTCHA ref={recaptcha} sitekey={process.env.REACT_APP_SITE_KEY} />
+      <ReCAPTCHA ref={recaptcha} sitekey={process.env.NEXT_PUBLIC_APP_SITE_KEY}/>
       
 
     </form>
