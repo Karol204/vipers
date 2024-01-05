@@ -13,10 +13,10 @@ const Hero = () => {
           <h1 className={styles.headline1}>Welcome to <br/>Vipers London Limited</h1>
           <h3 className={styles.headline2}>Elevating Hospitality Through Exemplary Staffing and Expert Consultancy</h3>
           {/* <Link className={styles.button} href='enquiries'>Enquire Now</Link> */}
-          <Image className={styles.Logo} src={Logo}/>
-        
-        
+          {/* <Image className={styles.Logo} src={Logo}/> */}
         </div>
+        <Image className={styles.Logo1} alt='Vipers London Limited Logo' src={Logo}/>
+
       </div>
   )
 }

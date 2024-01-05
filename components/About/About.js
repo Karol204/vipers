@@ -13,7 +13,7 @@ const About = () => {
 Connect with us today, and embark on a journey where staffing brilliance and strategic consultancy converge to script a magnum opus for your establishment. </p>
       <div className={styles.innerContainer}>
       <div className={styles.imgContainer}>
-          <Image className={styles.img}  src={AboutPic}/>
+          <Image alt='Cocktail picture' className={styles.img}  src={AboutPic}/>
         </div>
         <div className={styles.Features} id='form'>
           <ContactForm/>

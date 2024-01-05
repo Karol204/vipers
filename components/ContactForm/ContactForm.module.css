@@ -135,6 +135,11 @@
 	color: #000;
 }
 
+.label {
+	display: block;
+	margin: 0 10px;
+}
+
 .textarea {
 	width: 470px;
 	max-width: 470px;

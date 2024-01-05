@@ -1,6 +1,7 @@
 .nav {
 	width: 100vw;
 	height: 14vh;
+	min-height: 130px;
 	background-color: var(--backgroud-color-500);
 	color: black;
 }
@@ -17,8 +18,8 @@
 }
 
 .Logo {
-	width: 152px;
-	height: 152px;
+	width: 122px;
+	height: 122px;
 	object-fit: contain;
 	margin: 0 30px;
 	vertical-align: middle;
@@ -29,7 +30,7 @@
 	width: 180px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
 	.nav {
 		display: none;
 	}

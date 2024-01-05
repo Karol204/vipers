@@ -27,15 +27,18 @@ const ContactForm = ({title, candidates}) => {
     }
   };
 
-  
-  // process.env.PUBLIC_KEY ViperSolution.london@outlook.com
 
 
   return (
     <div className={styles.SectionContainer}>
       <h1>{title}</h1>
       <form ref={form} onSubmit={sendEmail}>
-		
+      <label for="lang" className={styles.label}>Tell us who you are: </label>
+        <select name="dropdown" id="lang" className={styles.input}>
+          <option value="select">Select an option</option>
+          <option value="Customer"> a customer</option>
+          <option value="Emploee">an employee</option>
+        </select>
 		  <input id="name" type="text" placeholder="NAME" className={styles.input} name='name' required/>
 		  <input id="email" type="text" placeholder="E-MAIL" className={styles.input} name='email' required/>
 		  <textarea id="message" type="text" placeholder="MESSAGE" className={styles.textarea} name='message'></textarea>

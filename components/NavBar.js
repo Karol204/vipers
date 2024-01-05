@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className={styles.nav}>
       
         <ul className={styles.navUl}>
-        <Image className={styles.Logo} src={Logo}/>
+        <Image className={styles.Logo} src={Logo} alt='Vipers London Limited Logo'/>
 
             <li className={styles.navLi}><Link className={styles.navLink} href='#ourApproach'>Our Approach</Link></li>
             <li className={styles.navLi}><Link className={styles.navLink} href='#specials'>Specialization</Link></li>
